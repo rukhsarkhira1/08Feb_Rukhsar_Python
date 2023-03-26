@@ -1,0 +1,11 @@
+Q.      What is tuple? Difference between list and tuple.
+
+Ans.    A tuple is a collection which is ordered and unchangeable.
+        Tuples are used to store multiple items in a single variable
+        just like lists.
+
+        Difference :
+
+        The Difference between Tuples and lists is that Tuples cannot
+        be changed unlike lists.
+        Tuples use 'parentheses' whereas lists use sqaure 'brackets'.

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body style="background-color: rgb(179, 179, 84);">
+    <center><h1>Enter data for query set</h1><hr>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" placeholder="name" name="name"><br><br>
+        <input type="email" placeholder="email" name="email"><br><br>
+        <input type="password" placeholder="password" name="password"><br><br>
+        <input type="number" placeholder="mobile" name="mobile"><br><br>
+        <textarea placeholder="address" name="address"></textarea><br><br>
+        <input type="submit" value="Save">
+        <input type="reset" value="reset">
+
+    </form><br><br>
+    <h3>View data in query set : <a href="/showdata">Click here</a></h3>
+    
+
+
+</center>
+</body>
+</html>

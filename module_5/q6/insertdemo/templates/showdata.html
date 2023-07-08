@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showdata</title>
+</head>
+<body style="background-color: rgb(179, 179, 84);">
+    <center><h1>Welcome to show data Demo</h1></center><hr>
+    <center><h2>Query set example :</h2>
+    {% for i in data %}
+    {{i.name}}
+    {{i.email}}
+    {{i.mobile}}
+    {{i.address}}<br>
+    {% endfor %}
+ <br><br>
+
+ <a href="/">Home</a>   
+
+</center>
+    
+
+<!--<table border="2" align="center">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+
+        {% for i in data %}
+        <tr>
+            <td>{{i.id}}</td>
+            <td>{{i.name}}</td>
+            <td>{{i.email}}</td>
+            <td>{{i.mobile}}</td>
+            <td>{{i.address}}</td>
+            <td><a href="">Update</a>
+            <a href="">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+-->
+
+
+    
+</body>
+</html>

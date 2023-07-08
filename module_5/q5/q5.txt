@@ -1,0 +1,9 @@
+Q.      What is Django URLs?make program to create django urls
+
+Ans.    Django URLs is used to create web pages and links
+        for your website.URLs are used to create links that will be 
+        available for your website users to access.
+
+        In Django, we use something called URLconf (URL configuration).
+        URLconf is a set of patterns that Django will try to match the 
+        requested URL to find the correct view.

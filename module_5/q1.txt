@@ -1,0 +1,23 @@
+Q.      Why Django should be used for web-development? 
+
+Ans.    Django is a high-level Python web framework that enables 
+        rapid development of secure and maintainable websites, built
+        by experienced developers.Django takes care of much of the 
+        hassle of web development.
+
+Q.      Explain how you can create a project in Django?
+
+Ans.    i)    Install django by using cmd :
+              cmd - pip install django
+
+        ii)   Create virtual environment :
+              cmd - virtualenv myenv [here 'myenv is a folder name']
+        
+        iii)  Activate the environment :
+              cmd - cd scripts
+                    activate
+
+        iv)install django again and make a django project by using this command :
+              cmd - django-admin startproject Testproject
+
+

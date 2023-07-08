@@ -1,0 +1,9 @@
+Q.      Explain what does django-admin.py make messages command is
+used for?
+
+Ans.    Runs over entire source tree of the current directory and 
+        pulls out all strings marked for translation. It creates 
+        a message file in the conf/local directory. You must run this
+        command with :
+                
+                     --locale, --exclude, or --all options
